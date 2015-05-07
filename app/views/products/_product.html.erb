@@ -1,0 +1,6 @@
+<li class="index">
+	<%= product.id %> - <%= link_to "#{product.name}-#{product.formatted_price}", product_path(product) %>
+	<span class="label label-default"><%= product.category.name %></span>
+</li>
+
+
