@@ -1,0 +1,4 @@
+<section class="review">
+<h2>Reviews for <%= @product.name %></h2>
+<%= render @product.reviews.order("updated_at desc") %>
+</section>
